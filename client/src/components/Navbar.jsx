@@ -3,7 +3,7 @@ import useAuthUser from "../hooks/useAuthUser";
 import { BellIcon, LogOutIcon } from "lucide-react";
 import ThemeSelector from "./ThemeSelector";
 import useLogout from "../hooks/useLogout";
-import logo from "../../dist/logo.png";
+import logo from "../../public/logo.png";
 
 const Navbar = () => {
   const { authUser } = useAuthUser();

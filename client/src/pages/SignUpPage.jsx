@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router";
-import logo from "../../dist/logo.png";
+import logo from "../../public/logo.png";
 import useSignUp from "../hooks/useSignUp";
 
 const SignUpPage = () => {
