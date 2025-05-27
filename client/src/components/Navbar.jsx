@@ -3,7 +3,6 @@ import useAuthUser from "../hooks/useAuthUser";
 import { BellIcon, LogOutIcon } from "lucide-react";
 import ThemeSelector from "./ThemeSelector";
 import useLogout from "../hooks/useLogout";
-import logo from "../../public/logo.png";
 
 const Navbar = () => {
   const { authUser } = useAuthUser();
@@ -26,7 +25,7 @@ const Navbar = () => {
           <div className="lg:hidden">
             <Link to="/" className="flex items-center">
               <img
-                src={logo}
+                src="public/logo.png"
                 alt="Logo"
                 className="h-8 w-auto object-contain"
               />

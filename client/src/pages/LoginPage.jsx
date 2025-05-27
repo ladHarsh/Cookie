@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router";
 import useLogin from "../hooks/useLogin";
-import logo from "../../dist/logo.png";
 
 const LoginPage = () => {
   const [loginData, setLoginData] = useState({
@@ -58,7 +57,11 @@ const LoginPage = () => {
         <div className="w-full lg:w-1/2 p-4 sm:p-8 flex flex-col">
           {/* LOGO */}
           <div className="mb-8 flex items-center justify-center">
-            <img src={logo} alt="Logo" className="h-16 w-auto object-contain" />
+            <img
+              src="public/logo.png"
+              alt="Logo"
+              className="h-16 w-auto object-contain"
+            />
           </div>
 
           {/* ERROR MESSAGE DISPLAY */}

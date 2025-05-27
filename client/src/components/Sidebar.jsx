@@ -1,7 +1,6 @@
 import { Link, useLocation } from "react-router";
 import useAuthUser from "../hooks/useAuthUser";
 import { BellIcon, HomeIcon, UsersIcon } from "lucide-react";
-import logo from "../../public/logo.png";
 
 const Sidebar = () => {
   const { authUser } = useAuthUser();
@@ -12,7 +11,11 @@ const Sidebar = () => {
     <aside className="w-64 bg-base-200 border-r border-base-300 hidden lg:flex flex-col h-screen sticky top-0">
       <div className="border-b border-base-300 flex justify-center items-center p-4">
         <Link to="/" className="flex items-center justify-center">
-          <img src={logo} alt="Logo" className="h-12 w-auto object-cover" />
+          <img
+            src="public/logo.png"
+            alt="Logo"
+            className="h-12 w-auto object-cover"
+          />
         </Link>
       </div>
 
