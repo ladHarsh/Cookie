@@ -12,7 +12,7 @@ const Sidebar = () => {
       <div className="border-b border-base-300 flex justify-center items-center p-4">
         <Link to="/" className="flex items-center justify-center">
           <img
-            src="public/logo.png"
+            src="/logo.png"
             alt="Logo"
             className="h-12 w-auto object-cover"
           />

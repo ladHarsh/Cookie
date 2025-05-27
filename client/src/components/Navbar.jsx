@@ -25,7 +25,7 @@ const Navbar = () => {
           <div className="lg:hidden">
             <Link to="/" className="flex items-center">
               <img
-                src="public/logo.png"
+                src="/logo.png"
                 alt="Logo"
                 className="h-8 w-auto object-contain"
               />

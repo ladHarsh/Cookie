@@ -58,7 +58,7 @@ const LoginPage = () => {
           {/* LOGO */}
           <div className="mb-8 flex items-center justify-center">
             <img
-              src="public/logo.png"
+              src="/logo.png"
               alt="Logo"
               className="h-16 w-auto object-contain"
             />
